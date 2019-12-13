@@ -622,6 +622,8 @@ public class EstatisticaFrame extends javax.swing.JFrame {
     }
 
     public static void main(String args[]) {
+    	LeiaCVS obj = new LeiaCVS();
+        obj.run();
     	
 		try {
 	        for (javax.swing.UIManager.LookAndFeelInfo info : javax.swing.UIManager.getInstalledLookAndFeels()) {
